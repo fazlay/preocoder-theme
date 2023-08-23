@@ -104,3 +104,34 @@ body {
     background: #ea1a70;
     color: #fff;
   }
+
+  #header_area.left-side .col-md-3  {
+   order:2
+  }
+  #header_area.left-side .col-md-9  {
+    order:1
+   }
+
+   #header_area.left-side .col-md-9  ul{
+    text-align: left;
+   }
+
+   
+#header_area.middle-center .col-md-9  {
+   width: 100%;
+   text-align: center;
+   }
+
+
+#header_area.middle-center .col-md-3  {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      #header_area.middle-center .col-md-3 img {
+        height: 64px;
+      }
+      #header_area.middle-center .col-md-9 ul {
+        text-align: center;
+        
+      }
