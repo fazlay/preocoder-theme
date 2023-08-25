@@ -1,6 +1,11 @@
 /*=======================================
  Common CSS
 ========================================*/
+
+:root{
+
+  --pink:#ea1a70;
+}
 body {
     font-family: "Kaisei Decol", serif;
   }
@@ -27,11 +32,11 @@ body {
   #body_area .post_details{width:100%; margin-bottom: 15px;}
   #body_area .post_details h2{font-size: 24px; font-weight: 700;}
   #body_area .post_details h2 a{text-decoration: none;color: #262626; transition: 0.5s;}
-  #body_area .post_details h2 a:hover{text-decoration: none;color:#ea1a70; }
+  #body_area .post_details h2 a:hover{text-decoration: none;color:var(--pink); }
 
   a.read-more{
     font-family: "Oswald", sans-serif;
-    background: #ea1a70;
+    background: var(--pink);
     color: #fff;
     padding: 5px 10px;
     display: inline-block;
@@ -54,7 +59,7 @@ body {
 #page_nav {
 }
 #page_nav p.pages {
-  background: #ea1a70;
+  background: var(--pink);
   color: #fff;
   padding: 5px 10px;
 }
@@ -63,7 +68,7 @@ body {
   padding: 0 5px;
 }
 #page_nav .page-numbers {
-  background: #ea1a70;
+  background: var(--pink);
   color: #fff;
   display: inline-block;
   text-decoration: none;
@@ -84,7 +89,7 @@ body {
   font-size: 30px;
   margin-bottom: 0;
   line-height: 1em;
-  border-left: 5px solid #ea1a70;
+  border-left: 5px solid var(--pink);
   padding-left: 10px;
 }
 .child_sidebar input[type="search"] {
@@ -93,8 +98,8 @@ body {
   padding: 10px;
 }
 .child_sidebar button[type="submit"] {
-  background: #ea1a70;
-  border: 1px solid #ea1a70;
+  background: var(--pink);
+  border: 1px solid var(--pink);
   padding: 10px;
   margin: 0;
   color: #fff;
@@ -123,7 +128,7 @@ body {
   text-decoration: none;
 }
 .child_sidebar ul li a:hover {
-  color: #ea1a70;
+  color: var(--pink);
 }
 .child_sidebar a.tag-cloud-link {
   color: #fff;
@@ -135,7 +140,7 @@ body {
   margin-bottom: 5px;
 }
 .child_sidebar a.tag-cloud-link:hover {
-  background: #ea1a70;
+  background: var(--pink);
 }
 
   
@@ -166,7 +171,7 @@ body {
     text-decoration: none;
   }
   #header_area .col-md-9 ul li a:hover {
-    background: #ea1a70;
+    background: var(--pink);
     color: #fff;
   }
   
@@ -195,7 +200,7 @@ body {
     color: #262626;
   }
   #header_area .col-md-9 ul li:hover a {
-    background: #ea1a70;
+    background: var(--pink);
     color: #fff;
   }
   #header_area .col-md-9 ul li:hover ul li a {
@@ -216,7 +221,7 @@ body {
     left: 200px;
   }
   #header_area .col-md-9 ul li ul li:hover a {
-    background: #ea1a70;
+    background: var(--pink);
     color: #fff;
   }
   #header_area .col-md-9 ul ul li:hover ul li a {
@@ -224,7 +229,7 @@ body {
     color: #fff;
   }
   #header_area .col-md-9 ul ul li ul li a:hover {
-    background: #ea1a70;
+    background: var(--pink);
     color: #fff;
   }
 
