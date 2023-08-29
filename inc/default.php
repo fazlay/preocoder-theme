@@ -2,11 +2,12 @@
 <?php
 
 add_theme_support('title-tag');
+add_theme_support('wp-block-styles');
 
 
 //Thumbnail Image Support
 
-add_theme_support('post-thumbnails', array('post', 'page'));
+add_theme_support('post-thumbnails', array('post', 'page', 'service'));
 add_image_size('post_thumbnails', 970, 350, true);
 
 function ali_excerpt_more($more)
@@ -19,7 +20,7 @@ add_filter('excerpt_more', 'ali_excerpt_more');
 
 function ali_excerpt_length($length)
 {
-    return 20;
+    return 100;
 }
 add_filter('excerpt_length', 'ali_excerpt_length');
 
