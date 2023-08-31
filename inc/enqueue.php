@@ -32,6 +32,8 @@ function ali_css_js_file_calling()
 }
 add_action('wp_enqueue_scripts', 'ali_css_js_file_calling');
 
+
+
 function ali_add_google_fonts()
 {
     wp_enqueue_style('ali_google_fonts', 'https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Oswald&display=swap', false);

@@ -25,3 +25,6 @@ include_once('inc/widgets_register.php');
 
 //Custom Post
 include_once('inc/custom_post.php');
+
+//adding Login CSS and PHP
+include_once('inc/login_enqueue.php');
